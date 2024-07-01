@@ -24,44 +24,36 @@ Follow these steps to set up the Coffee Shop Management System locally:
 
 Clone the Repository
 
-bash
-Copy code
+
 git clone https://github.com/your_username/coffee-shop-management.git
 cd coffee-shop-management
 Create a Virtual Environment
 
-bash
-Copy code
+
 python -m venv venv
 Activate the Virtual Environment
 
 On Windows:
-bash
-Copy code
+
 venv\Scripts\activate
 On macOS/Linux:
-bash
-Copy code
+
 source venv/bin/activate
 Install Dependencies
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Run Migrations
 
-bash
-Copy code
+
 python manage.py migrate
 Create a Superuser (Manager Access)
 
-bash
-Copy code
+
 python manage.py createsuperuser
 Start the Development Server
 
-bash
-Copy code
+
 python manage.py runserver
 Access the Application
 
