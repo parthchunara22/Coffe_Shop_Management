@@ -24,8 +24,6 @@ Follow these steps to set up the Coffee Shop Management System locally:
 
 Clone the Repository
 
-
-git clone https://github.com/your_username/coffee-shop-management.git
 cd coffee-shop-management
 Create a Virtual Environment
 
